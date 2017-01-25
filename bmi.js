@@ -60,19 +60,19 @@ function arvioi() {
 
 	var arvioTeksti = "";
 	if(isNaN(bmi)){
-		return;
-	}else if (bmi < 16,0) {
+			return;
+	}else if (bmi < 16.0) {
 		arvioTeksti = 'vaikea alipaino';
-	}else if( bmi < 17,0){
+	}else if( bmi < 17.0){
 		arvioTeksti = 'merkittävä alipaino';
-	}else if(bmi < 18,5){
+	}else if(bmi < 18.5){
 		arvioTeksti = 'lievä alipaino';
 	}else if(bmi < 25){
-		arvioTeksti = 'normaali paino'
+		arvioTeksti = 'normaali paino';
 	}else if (bmi < 30) {
 			arvioTeksti = 'lievä lihavuus';
 	}else if (bmi < 40) {
-			arvioTeksti = 'vaikea lihavuus'
+			arvioTeksti = 'vaikea lihavuus';
 	}else{
 		arvioTeksti = 'sairaalloinen lihavuus';
 	}
